@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TO-DO LIST MAKER</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div>
+        <div class="top pure-g">
+            <div class="pure-u-1">
+                <h1>TO-DO LIST MAKER</h1>
+                <h3>Enter text into the input field to add items to your list(max. 28 characters).</h3>
+                <h3>Press X to delete from the list.</h3>
+            </div>
+        </div>
+        <div class="middle pure-g center">
+            <div class="pure-u-1">
+                <div class="pure-form">
+                    <input type="text" placeholder="New Item..." id="input" class="pure-input-2-3" />
+                    <button id="btn" class="pure-button"><i class="fas fa-check-square fa-3x new"></i></button>
+                </div>
+                
+            </div>
+        </div>
+        <div id="list" class="pure-g center">
+
+            <div class="pure-u-20-24 to-do">Number 1 on the list</div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
