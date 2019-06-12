@@ -46,8 +46,8 @@ h3 {
     }
 
 
-#btn {
-    padding: 0;
+#btn{
+    padding:0;
 }
 
 .to-do {
@@ -58,6 +58,8 @@ h3 {
     padding: 12px;
     margin: 1px;
 }
+
+.to-do 
 
 .center {
     justify-content: center;
@@ -73,3 +75,9 @@ h3 {
     .new:hover {
         color: #b8e994;
     }
+
+.delete {
+    background: #82ccdd;
+    border: none;
+    padding:0;
+}

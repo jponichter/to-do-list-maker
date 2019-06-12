@@ -2,7 +2,9 @@
 function point() {
     let valueOfInput = document.getElementById("input").value;
     let path = document.getElementById('list');
-    path.innerHTML += '<div class="pure-u-20-24 to-do">' + valueOfInput + '</div>';
+    let id = document.getElementsByClassName('to-do').length + 1;
+    path.innerHTML += '<div id="div' + id + '\" class="pure-u-20-24 to-do">' + valueOfInput +
+    '<button class="delete" onclick=\"return this.parentNode.remove();\"><i class=\"fas fa-window-close fa-2x\"></i></button></div>';
     document.getElementById("input").value = '';
 }
 
@@ -19,3 +21,4 @@ function setMaxLength() {
 }
 
 document.getElementById('input').addEventListener('click', setMaxLength);
+
