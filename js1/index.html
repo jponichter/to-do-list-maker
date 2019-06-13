@@ -7,6 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -19,25 +20,26 @@
                 <h3>Press X to delete from the list.</h3>
             </div>
         </div>
-        <div class="middle pure-g center">
-            <div class="pure-u-1">
-                <div class="pure-form">
-                    <input type="text" placeholder="New Item..." id="input" class="pure-input-2-3" />
+        <div class="pure-form middle">
+            <div class="pure-g center">
+                <div class="pure-u-3-4">
+                    <input id="input" type="text" placeholder="New item..." class="pure-u-1"/>
+                    
+                </div>
+                <div class="pure-u-1-20">
                     <button id="btn" class="pure-button"><i class="fas fa-check-square fa-3x new"></i></button>
                 </div>
-                
             </div>
         </div>
-        <div id="list" class="pure-g center">
+        <div class="pure-menu">
+            <ul id="list" class="pure-menu-list pure-u-23-24 pure-u-md-1-2">
 
-            <div class="pure-u-20-24 to-do">Number 1 on the list<button class="delete" onclick="return this.parentNode.remove();"><i class="fas fa-window-close fa-2x"></i></button></div>
+                <li class="pure-menu-item to-do">Number 1 on the list<button class="delete" onclick="return this.parentNode.remove();"><i class="fas fa-window-close fa-2x"></i></button></li>
 
+            </ul>
         </div>
 
-    </div>
 
-
-
-    <script src="js/main.js"></script>
+        <script src="js/main.js"></script>
 </body>
 </html>

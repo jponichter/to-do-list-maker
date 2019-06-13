@@ -2,9 +2,8 @@
 function point() {
     let valueOfInput = document.getElementById("input").value;
     let path = document.getElementById('list');
-    let id = document.getElementsByClassName('to-do').length + 1;
-    path.innerHTML += '<div id="div' + id + '\" class="pure-u-20-24 to-do">' + valueOfInput +
-    '<button class="delete" onclick=\"return this.parentNode.remove();\"><i class=\"fas fa-window-close fa-2x\"></i></button></div>';
+    path.innerHTML += '<li id="div' + '\" class="to-do">' + valueOfInput +
+    '<button class="delete" onclick=\"return this.parentNode.remove();\"><i class=\"fas fa-window-close fa-2x\"></i></button></li>';
     document.getElementById("input").value = '';
 }
 

@@ -31,16 +31,15 @@ h3 {
 
 .middle {
     text-align: center;
-    /*padding: 10px;*/
-    margin: 10px;
-    margin-top: 0px;
+    margin-bottom:0;
+    vertical-align:middle;
 }
 
 #input {
 }
 
     #input[type="text"] {
-        margin: 2px;
+        /*margin: 2px;*/
         border: 2px solid #0c2461;
         outline: none;
     }
@@ -48,18 +47,30 @@ h3 {
 
 #btn{
     padding:0;
+    margin:4px;
 }
 
 .to-do {
-    text-align: center;
     background: #82ccdd;
     border: 2px solid #0c2461;
-    border-radius: 20px;
-    padding: 12px;
-    margin: 1px;
+    border-radius: 10px;
+    padding: 7px;
+    margin: auto;
+    text-align: left;
+    font-size: 24px;
 }
 
-.to-do 
+    .to-do i {
+        font-size: 24px;
+
+    }
+
+    .to-do button{
+        float:right;
+        padding-right:4px;;
+    }
+
+
 
 .center {
     justify-content: center;
@@ -73,11 +84,15 @@ h3 {
 }
 
     .new:hover {
-        color: #b8e994;
+        color: rgb(255, 255, 255, 0.6);
     }
 
 .delete {
-    background: #82ccdd;
+    background: none;
     border: none;
     padding:0;
+}
+
+.pure-menu{
+    text-align:center;
 }
