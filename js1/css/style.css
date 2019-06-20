@@ -39,7 +39,6 @@ h3 {
 }
 
     #input[type="text"] {
-        /*margin: 2px;*/
         border: 2px solid #0c2461;
         outline: none;
     }
@@ -54,8 +53,7 @@ h3 {
     background: #82ccdd;
     border: 2px solid #0c2461;
     border-radius: 10px;
-    padding: 7px;
-    margin: auto;
+    padding: 8px;   
     text-align: left;
     font-size: 24px;
 }
@@ -96,3 +94,20 @@ h3 {
 .pure-menu{
     text-align:center;
 }
+
+.auto{
+    padding: 10px;
+}
+
+#button-print {
+    background: rgb(214, 40, 40);
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.print{
+    text-align:center;
+    padding:10px;
+}
+
