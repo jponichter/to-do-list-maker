@@ -24,20 +24,10 @@ function setMaxLength() {
 
 document.getElementById('input').addEventListener('click', setMaxLength);
 
+/* PRINT BUTTON
 function printPage() {
-    var content = document.getElementById('list').innerHTML;
-    var mywindow = window.open('', 'Print', 'height=600,width=800');
-
-    mywindow.document.write('<html><head><title>Print</title>');
-    mywindow.document.write('</head><body >');
-    mywindow.document.write(content);
-    mywindow.document.write('</body></html>');
-
-    mywindow.document.close();
-    mywindow.focus()
-    mywindow.print();
-    mywindow.close();
-    return true;
+    window.print();
 }
 
 document.getElementById('button-print').addEventListener('click', printPage);
+*/
