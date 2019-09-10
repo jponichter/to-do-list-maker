@@ -1,0 +1,115 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background: #3c6382;
+    font-size: 20px;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+}
+
+h3 {
+    color: #b8e994;
+    margin: 40px;
+}
+
+    h3:nth-child(3) {
+        color: #fc5025;
+    }
+
+.middle {
+    text-align: center;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+#input {
+}
+
+    #input[type="text"] {
+        border: 2px solid #0c2461;
+        outline: none;
+    }
+
+
+#btn {
+    padding: 0;
+    margin: 4px;
+}
+
+.to-do {
+    background: #82ccdd;
+    border: 2px solid #0c2461;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: left;
+    font-size: 24px;
+    margin:2px;
+}
+
+    .to-do i {
+        font-size: 24px;
+    }
+
+    .to-do button {
+        float: right;
+        padding-right: 4px;
+        ;
+    }
+
+
+
+.center {
+    justify-content: center;
+}
+
+.new {
+    padding: 0;
+    margin: 0;
+    background: #3c6382;
+    color: ghostwhite;
+}
+
+    .new:hover {
+        color: rgb(255, 255, 255, 0.6);
+    }
+
+.delete {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.pure-menu {
+    text-align: center;
+}
+
+.auto {
+    padding: 10px;
+}
+
+/* PRINT BUTTON
+#button-print {
+    background: rgb(214, 40, 40);
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.print{
+    text-align:center;
+    padding:10px;
+}
+    */
