@@ -1,0 +1,23 @@
+{
+  "name": "to-do-list-maker",
+  "version": "1.0.0",
+  "description": "To-do",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jponichter/to-do-list-maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jponichter/to-do-list-maker/issues"
+  },
+  "homepage": "https://jponichter.github.io/to-do-list-maker",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
